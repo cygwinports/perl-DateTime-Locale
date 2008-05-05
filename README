@@ -1,0 +1,47 @@
+perl-DateTime-Locale
+------------------------------------------
+Localization data for the Perl DateTime module
+
+Runtime requirements:
+  perl-5.10.0-3
+  perl-Params-Validate-0.91-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/DateTime-Locale/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-DateTime-Locale-<pv>-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-DateTime-Locale-<pv>-X.cygport all
+
+This will create:
+  /usr/src/perl-DateTime-Locale-<pv>-X-src.tar.bz2
+  /usr/src/perl-DateTime-Locale-<pv>-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+
+------------------
+
+Port Notes:
+
+----- version <pv>-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
