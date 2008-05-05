@@ -20,26 +20,234 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DateTime-Locale-<pv>-X-src.tar.bz2
+  unpack perl-DateTime-Locale-0.35-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-DateTime-Locale-<pv>-X.cygport all
+  cygport ./perl-DateTime-Locale-0.35-X.cygport all
 
 This will create:
-  /usr/src/perl-DateTime-Locale-<pv>-X-src.tar.bz2
-  /usr/src/perl-DateTime-Locale-<pv>-X.tar.bz2
+  /usr/src/perl-DateTime-Locale-0.35-X-src.tar.bz2
+  /usr/src/perl-DateTime-Locale-0.35-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/Base.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/aa.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/aa_ER_SAAHO.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/af.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/af_NA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ak.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/am.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_JO.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_LB.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_QA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_SA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_SY.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_TN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ar_YE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/as.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/az.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/az_Cyrl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/be.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bg.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bs.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/byn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ca.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cch.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cs.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cy.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/da.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/de.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/de_AT.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/de_BE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/dv.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/dz.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ee.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/el.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_AU.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_BE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_BW.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_BZ.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_CA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_GB.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_HK.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_IE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_IN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_MT.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_NZ.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_PH.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_PK.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_SG.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_ZA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_ZW.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/eo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_AR.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_CL.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_CO.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_EC.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_ES.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_GT.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_HN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_PA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_PE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_PR.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/es_US.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/et.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/eu.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fa.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fa_AF.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fi.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fil.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_BE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_CA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_CH.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fur.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ga.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/gaa.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/gez.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/gl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/gu.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/gv.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Arab.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/haw.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/he.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/hi.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/hr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/hu.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/hy.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/hy_AM_REVISED.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ia.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/id.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ig.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ii.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/is.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/it.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/it_CH.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/iu.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ja.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ka.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kaj.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kam.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kcg.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kfo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kk.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/km.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ko.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kok.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kpe.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kw.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ky.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ln.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/lo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/lt.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/lv.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mk.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ml.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ms.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ms_BN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mt.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/my.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nb.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ne.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nl_BE.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nso.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ny.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/om.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/or.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pa.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pa_Arab.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ps.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pt.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pt_PT.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ro.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/root.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ru.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ru_UA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/rw.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sa.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/se.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/se_FI.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sid.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sk.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/so.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sq.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr_Cyrl_BA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr_Latn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr_Latn_ME.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr_Latn_RS.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ss.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/st.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sv.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sw.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/syr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ta.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/te.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tg.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/th.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ti.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ti_ER.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tig.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/to.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tr.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ts.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tt.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ug.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/uk.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ur.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/uz.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/uz_Arab.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/uz_Latn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ve.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/vi.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wal.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/xh.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/yo.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hans_SG.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hant.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hant_HK.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hant_MO.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zu.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/LocaleCatalog.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DateTime/Locale/.packlist
+  /usr/share/doc/perl-DateTime-Locale-0.35/Changes
+  /usr/share/doc/perl-DateTime-Locale-0.35/LICENSE
+  /usr/share/doc/perl-DateTime-Locale-0.35/README
+  /usr/share/man/man3/DateTime.Locale.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.Base.3pm.gz
+  /usr/share/man/man3/DateTime.LocaleCatalog.3pm.gz
 
 ------------------
 
 Port Notes:
 
------ version <pv>-1 -----
+----- version 0.35-1 -----
 Initial release for Cygwin.
 
 
