@@ -1,4 +1,4 @@
 category: Perl
-requires: perl perl-Params-Validate
+requires: perl perl-List-MoreUtils perl-Params-Validate
 sdesc: "Perl DateTime locale data"
 ldesc: "Localization data for the Perl DateTime module"
