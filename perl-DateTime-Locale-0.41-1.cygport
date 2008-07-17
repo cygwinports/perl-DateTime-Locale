@@ -1,0 +1,2 @@
+CPAN_AUTHOR=drolsky
+inherit perl

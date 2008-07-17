@@ -3,7 +3,7 @@ perl-DateTime-Locale
 Localization data for the Perl DateTime module
 
 Runtime requirements:
-  perl-5.10.0-4
+  perl-5.10.0-5
   perl-List-MoreUtils-0.22-1
   perl-Params-Validate-0.91-1
 
@@ -21,15 +21,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DateTime-Locale-0.4001-X-src.tar.bz2
+  unpack perl-DateTime-Locale-0.41-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-DateTime-Locale-0.4001-X.cygport all
+  cygport ./perl-DateTime-Locale-0.41-X.cygport all
 
 This will create:
-  /usr/src/perl-DateTime-Locale-0.4001-X-src.tar.bz2
-  /usr/src/perl-DateTime-Locale-0.4001-X.tar.bz2
+  /usr/src/perl-DateTime-Locale-0.41-X-src.tar.bz2
+  /usr/src/perl-DateTime-Locale-0.41-X.tar.bz2
 
 -------------------------------------------
 
@@ -83,9 +83,6 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bn.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bn_BD.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bn_IN.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bo.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bo_CN.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bo_IN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bs.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/bs_BA.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/byn.pm
@@ -95,11 +92,6 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cch.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cch_NG.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop_Arab.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop_Arab_EG.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop_Arab_US.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop_EG.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cop_US.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cs.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cs_CZ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/cy.pm
@@ -131,6 +123,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_BW.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_BZ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_CA.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_Dsrt.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_Dsrt_US.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_GB.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_GU.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_HK.pm
@@ -145,6 +139,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_PH.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_PK.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_SG.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_Shaw.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_TT.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_UM.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/en_US.pm
@@ -184,6 +179,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fi.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fi_FI.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fil.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fil_PH.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fo.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fo_FO.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr.pm
@@ -193,6 +189,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_FR.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_LU.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_MC.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fr_SN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fur.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/fur_IT.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ga.pm
@@ -211,6 +208,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Arab.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Arab_NG.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Arab_SD.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_GH.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Latn.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Latn_GH.pm
@@ -218,6 +216,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_Latn_NG.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_NE.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_NG.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ha_SD.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/haw.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/haw_US.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/he.pm
@@ -255,8 +254,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kcg.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kcg_NG.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kfo.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kfo_NG.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kfo_CI.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kk.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kk_Cyrl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kk_Cyrl_KZ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kk_KZ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kl.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kl_GL.pm
@@ -273,14 +274,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kpe_LR.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_Arab.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_IQ.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_IR.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_Latn.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_Latn_IQ.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_Latn_IR.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_Latn_SY.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_Latn_TR.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_SY.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ku_TR.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kw.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/kw_GB.pm
@@ -300,7 +295,13 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ml.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ml_IN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn_CN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn_Cyrl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn_Cyrl_MN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn_MN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn_Mong.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mn_Mong_CN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mo.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mr.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/mr_IN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ms.pm
@@ -313,12 +314,14 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nb.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nb_NO.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ne.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ne_IN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ne_NP.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nl.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nl_BE.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nl_NL.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nn.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nn_NO.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/no.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nr.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nr_ZA.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/nso.pm
@@ -345,6 +348,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pt_BR.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/pt_PT.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ro.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ro_MD.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ro_RO.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/root.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ru.pm
@@ -361,6 +365,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sh_BA.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sh_CS.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sh_YU.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/si.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/si_LK.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sid.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sid_ET.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sk.pm
@@ -393,8 +399,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr_RS.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sr_YU.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ss.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ss_SZ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ss_ZA.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/st.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/st_LS.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/st_ZA.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sv.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/sv_FI.pm
@@ -409,6 +417,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/te.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/te_IN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tg.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tg_Cyrl.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tg_Cyrl_TJ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tg_TJ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/th.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/th_TH.pm
@@ -417,6 +427,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ti_ET.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tig.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tig_ER.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tl.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tn.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tn_ZA.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/to.pm
@@ -428,10 +439,11 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tt.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/tt_RU.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ug.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ug_Arab.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ug_Arab_CN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ug_CN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/uk.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/uk_UA.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/und.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/und_ZZ.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ur.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ur_IN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/ur_PK.pm
@@ -451,8 +463,6 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wal.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wal_ET.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo_Arab.pm
-  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo_Arab_SN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo_Latn.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo_Latn_SN.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/wo_SN.pm
@@ -465,6 +475,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_HK.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hans.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hans_CN.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hans_HK.pm
+  /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hans_MO.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hans_SG.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hant.pm
   /usr/lib/perl5/vendor_perl/5.10/DateTime/Locale/zh_Hant_HK.pm
@@ -525,9 +537,6 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bn.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bn_BD.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bn_IN.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bo.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bo_CN.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bo_IN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bs.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/bs_BA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/byn.html
@@ -537,11 +546,6 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cch.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cch_NG.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cop.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cop_Arab.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cop_Arab_EG.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cop_Arab_US.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cop_EG.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cop_US.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cs.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cs_CZ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/cy.html
@@ -573,6 +577,8 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_BW.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_BZ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_CA.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_Dsrt.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_Dsrt_US.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_GB.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_GU.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_HK.html
@@ -587,6 +593,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_PH.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_PK.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_SG.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_Shaw.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_TT.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_UM.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/en_US.html
@@ -626,6 +633,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fi.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fi_FI.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fil.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fil_PH.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fo.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fo_FO.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fr.html
@@ -635,6 +643,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fr_FR.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fr_LU.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fr_MC.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fr_SN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fur.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/fur_IT.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ga.html
@@ -653,6 +662,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_Arab.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_Arab_NG.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_Arab_SD.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_GH.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_Latn.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_Latn_GH.html
@@ -660,6 +670,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_Latn_NG.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_NE.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_NG.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ha_SD.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/haw.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/haw_US.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/he.html
@@ -697,8 +708,10 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kcg.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kcg_NG.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kfo.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kfo_NG.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kfo_CI.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kk.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kk_Cyrl.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kk_Cyrl_KZ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kk_KZ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kl.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kl_GL.html
@@ -715,14 +728,8 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kpe_LR.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_Arab.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_IQ.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_IR.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_Latn.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_Latn_IQ.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_Latn_IR.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_Latn_SY.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_Latn_TR.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_SY.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ku_TR.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kw.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/kw_GB.html
@@ -742,7 +749,13 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ml.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ml_IN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn_CN.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn_Cyrl.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn_Cyrl_MN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn_MN.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn_Mong.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mn_Mong_CN.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mo.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mr.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/mr_IN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ms.html
@@ -755,12 +768,14 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nb.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nb_NO.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ne.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ne_IN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ne_NP.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nl.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nl_BE.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nl_NL.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nn.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nn_NO.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/no.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nr.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nr_ZA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/nso.html
@@ -787,6 +802,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/pt_BR.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/pt_PT.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ro.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ro_MD.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ro_RO.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/root.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ru.html
@@ -803,6 +819,8 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sh_BA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sh_CS.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sh_YU.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/si.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/si_LK.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sid.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sid_ET.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sk.html
@@ -835,8 +853,10 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sr_RS.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sr_YU.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ss.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ss_SZ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ss_ZA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/st.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/st_LS.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/st_ZA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sv.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/sv_FI.html
@@ -851,6 +871,8 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/te.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/te_IN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tg.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tg_Cyrl.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tg_Cyrl_TJ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tg_TJ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/th.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/th_TH.html
@@ -859,6 +881,7 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ti_ET.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tig.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tig_ER.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tl.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tn.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tn_ZA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/to.html
@@ -870,10 +893,11 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tt.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/tt_RU.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ug.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ug_Arab.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ug_Arab_CN.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ug_CN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/uk.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/uk_UA.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/und.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/und_ZZ.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ur.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ur_IN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/ur_PK.html
@@ -893,8 +917,6 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wal.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wal_ET.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wo.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wo_Arab.html
-  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wo_Arab_SN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wo_Latn.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wo_Latn_SN.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/wo_SN.html
@@ -907,6 +929,8 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_HK.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hans.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hans_CN.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hans_HK.html
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hans_MO.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hans_SG.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hant.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zh_Hant_HK.html
@@ -918,9 +942,9 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zu.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zu_ZA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/LocaleCatalog.html
-  /usr/share/doc/perl-DateTime-Locale-0.4001/Changes
-  /usr/share/doc/perl-DateTime-Locale-0.4001/LICENSE
-  /usr/share/doc/perl-DateTime-Locale-0.4001/README
+  /usr/share/doc/perl-DateTime-Locale-0.41/Changes
+  /usr/share/doc/perl-DateTime-Locale-0.41/LICENSE
+  /usr/share/doc/perl-DateTime-Locale-0.41/README
   /usr/share/man/man3/DateTime.Locale.3pm.gz
   /usr/share/man/man3/DateTime.Locale.Base.3pm.gz
   /usr/share/man/man3/DateTime.Locale.Catalog.3pm.gz
@@ -969,9 +993,6 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.bn.3pm.gz
   /usr/share/man/man3/DateTime.Locale.bn_BD.3pm.gz
   /usr/share/man/man3/DateTime.Locale.bn_IN.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.bo.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.bo_CN.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.bo_IN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.bs.3pm.gz
   /usr/share/man/man3/DateTime.Locale.bs_BA.3pm.gz
   /usr/share/man/man3/DateTime.Locale.byn.3pm.gz
@@ -981,11 +1002,6 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.cch.3pm.gz
   /usr/share/man/man3/DateTime.Locale.cch_NG.3pm.gz
   /usr/share/man/man3/DateTime.Locale.cop.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.cop_Arab.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.cop_Arab_EG.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.cop_Arab_US.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.cop_EG.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.cop_US.3pm.gz
   /usr/share/man/man3/DateTime.Locale.cs.3pm.gz
   /usr/share/man/man3/DateTime.Locale.cs_CZ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.cy.3pm.gz
@@ -1017,6 +1033,8 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.en_BW.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_BZ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_CA.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.en_Dsrt.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.en_Dsrt_US.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_GB.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_GU.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_HK.3pm.gz
@@ -1031,6 +1049,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.en_PH.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_PK.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_SG.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.en_Shaw.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_TT.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_UM.3pm.gz
   /usr/share/man/man3/DateTime.Locale.en_US.3pm.gz
@@ -1070,6 +1089,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.fi.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fi_FI.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fil.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.fil_PH.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fo.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fo_FO.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fr.3pm.gz
@@ -1079,6 +1099,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.fr_FR.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fr_LU.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fr_MC.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.fr_SN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fur.3pm.gz
   /usr/share/man/man3/DateTime.Locale.fur_IT.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ga.3pm.gz
@@ -1097,6 +1118,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.ha.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_Arab.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_Arab_NG.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ha_Arab_SD.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_GH.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_Latn.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_Latn_GH.3pm.gz
@@ -1104,6 +1126,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.ha_Latn_NG.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_NE.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ha_NG.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ha_SD.3pm.gz
   /usr/share/man/man3/DateTime.Locale.haw.3pm.gz
   /usr/share/man/man3/DateTime.Locale.haw_US.3pm.gz
   /usr/share/man/man3/DateTime.Locale.he.3pm.gz
@@ -1141,8 +1164,10 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.kcg.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kcg_NG.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kfo.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.kfo_NG.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.kfo_CI.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kk.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.kk_Cyrl.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.kk_Cyrl_KZ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kk_KZ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kl.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kl_GL.3pm.gz
@@ -1159,14 +1184,8 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.kpe_LR.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ku.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ku_Arab.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.ku_IQ.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.ku_IR.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ku_Latn.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.ku_Latn_IQ.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.ku_Latn_IR.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.ku_Latn_SY.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ku_Latn_TR.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.ku_SY.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ku_TR.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kw.3pm.gz
   /usr/share/man/man3/DateTime.Locale.kw_GB.3pm.gz
@@ -1186,7 +1205,13 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.ml.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ml_IN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.mn.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.mn_CN.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.mn_Cyrl.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.mn_Cyrl_MN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.mn_MN.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.mn_Mong.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.mn_Mong_CN.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.mo.3pm.gz
   /usr/share/man/man3/DateTime.Locale.mr.3pm.gz
   /usr/share/man/man3/DateTime.Locale.mr_IN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ms.3pm.gz
@@ -1199,12 +1224,14 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.nb.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nb_NO.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ne.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ne_IN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ne_NP.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nl.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nl_BE.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nl_NL.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nn.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nn_NO.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.no.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nr.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nr_ZA.3pm.gz
   /usr/share/man/man3/DateTime.Locale.nso.3pm.gz
@@ -1231,6 +1258,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.pt_BR.3pm.gz
   /usr/share/man/man3/DateTime.Locale.pt_PT.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ro.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ro_MD.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ro_RO.3pm.gz
   /usr/share/man/man3/DateTime.Locale.root.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ru.3pm.gz
@@ -1247,6 +1275,8 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.sh_BA.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sh_CS.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sh_YU.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.si.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.si_LK.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sid.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sid_ET.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sk.3pm.gz
@@ -1279,8 +1309,10 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.sr_RS.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sr_YU.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ss.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ss_SZ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ss_ZA.3pm.gz
   /usr/share/man/man3/DateTime.Locale.st.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.st_LS.3pm.gz
   /usr/share/man/man3/DateTime.Locale.st_ZA.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sv.3pm.gz
   /usr/share/man/man3/DateTime.Locale.sv_FI.3pm.gz
@@ -1295,6 +1327,8 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.te.3pm.gz
   /usr/share/man/man3/DateTime.Locale.te_IN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tg.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.tg_Cyrl.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.tg_Cyrl_TJ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tg_TJ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.th.3pm.gz
   /usr/share/man/man3/DateTime.Locale.th_TH.3pm.gz
@@ -1303,6 +1337,7 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.ti_ET.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tig.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tig_ER.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.tl.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tn.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tn_ZA.3pm.gz
   /usr/share/man/man3/DateTime.Locale.to.3pm.gz
@@ -1314,10 +1349,11 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.tt.3pm.gz
   /usr/share/man/man3/DateTime.Locale.tt_RU.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ug.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ug_Arab.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ug_Arab_CN.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.ug_CN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.uk.3pm.gz
   /usr/share/man/man3/DateTime.Locale.uk_UA.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.und.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.und_ZZ.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ur.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ur_IN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.ur_PK.3pm.gz
@@ -1337,8 +1373,6 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.wal.3pm.gz
   /usr/share/man/man3/DateTime.Locale.wal_ET.3pm.gz
   /usr/share/man/man3/DateTime.Locale.wo.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.wo_Arab.3pm.gz
-  /usr/share/man/man3/DateTime.Locale.wo_Arab_SN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.wo_Latn.3pm.gz
   /usr/share/man/man3/DateTime.Locale.wo_Latn_SN.3pm.gz
   /usr/share/man/man3/DateTime.Locale.wo_SN.3pm.gz
@@ -1351,6 +1385,8 @@ Files included in the binary package:
   /usr/share/man/man3/DateTime.Locale.zh_HK.3pm.gz
   /usr/share/man/man3/DateTime.Locale.zh_Hans.3pm.gz
   /usr/share/man/man3/DateTime.Locale.zh_Hans_CN.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.zh_Hans_HK.3pm.gz
+  /usr/share/man/man3/DateTime.Locale.zh_Hans_MO.3pm.gz
   /usr/share/man/man3/DateTime.Locale.zh_Hans_SG.3pm.gz
   /usr/share/man/man3/DateTime.Locale.zh_Hant.3pm.gz
   /usr/share/man/man3/DateTime.Locale.zh_Hant_HK.3pm.gz
@@ -1366,6 +1402,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.41-1 -----
+Version bump.
 
 ----- version 0.4001-1 -----
 Version bump.
