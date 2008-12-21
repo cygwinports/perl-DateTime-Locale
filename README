@@ -21,15 +21,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DateTime-Locale-0.41-X-src.tar.bz2
+  unpack perl-DateTime-Locale-0.42-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-DateTime-Locale-0.41-X.cygport all
+  cygport ./perl-DateTime-Locale-0.42-X.cygport all
 
 This will create:
-  /usr/src/perl-DateTime-Locale-0.41-X-src.tar.bz2
-  /usr/src/perl-DateTime-Locale-0.41-X.tar.bz2
+  /usr/src/perl-DateTime-Locale-0.42-X-src.tar.bz2
+  /usr/src/perl-DateTime-Locale-0.42-X.tar.bz2
 
 -------------------------------------------
 
@@ -942,9 +942,9 @@ Files included in the binary package:
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zu.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/Locale/zu_ZA.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/DateTime/LocaleCatalog.html
-  /usr/share/doc/perl-DateTime-Locale-0.41/Changes
-  /usr/share/doc/perl-DateTime-Locale-0.41/LICENSE
-  /usr/share/doc/perl-DateTime-Locale-0.41/README
+  /usr/share/doc/perl-DateTime-Locale-0.42/Changes
+  /usr/share/doc/perl-DateTime-Locale-0.42/LICENSE
+  /usr/share/doc/perl-DateTime-Locale-0.42/README
   /usr/share/man/man3/DateTime.Locale.3pm.gz
   /usr/share/man/man3/DateTime.Locale.Base.3pm.gz
   /usr/share/man/man3/DateTime.Locale.Catalog.3pm.gz
@@ -1402,6 +1402,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.42-1 -----
+Version bump.
 
 ----- version 0.41-1 -----
 Version bump.
