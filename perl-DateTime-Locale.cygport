@@ -1,0 +1,12 @@
+CPAN_AUTHOR=drolsky
+inherit perl
+
+NAME="perl-DateTime-Locale"
+VERSION=0.45
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl distribution DateTime-Locale"
+DESCRIPTION="The DateTime::Locale modules provide localization data for the
+DateTime.pm class."
+
+ARCH=noarch
