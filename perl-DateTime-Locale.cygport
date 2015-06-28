@@ -2,7 +2,7 @@ CPAN_AUTHOR=drolsky
 inherit perl
 
 NAME="perl-DateTime-Locale"
-VERSION=0.45
+VERSION=0.46
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl distribution DateTime-Locale"
